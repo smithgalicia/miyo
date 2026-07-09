@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://smithgalicia.github.io/genji-iiif/sheet",
+  "@id": "https://smithgalicia.github.io/miyo/sheet",
   "height": 1783,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",

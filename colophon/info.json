@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://smithgalicia.github.io/genji-iiif/colophon",
+  "@id": "https://smithgalicia.github.io/miyo/colophon",
   "height": 1720,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
