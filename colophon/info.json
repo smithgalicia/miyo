@@ -1,0 +1,65 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://smithgalicia.github.io/genji-iiif/colophon",
+  "height": 1720,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 860,
+      "width": 181
+    },
+    {
+      "height": 430,
+      "width": 91
+    },
+    {
+      "height": 215,
+      "width": 45
+    },
+    {
+      "height": 108,
+      "width": 23
+    },
+    {
+      "height": 54,
+      "width": 11
+    },
+    {
+      "height": 27,
+      "width": 6
+    },
+    {
+      "height": 13,
+      "width": 3
+    },
+    {
+      "height": 7,
+      "width": 1
+    },
+    {
+      "height": 3,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 1024,
+      "scaleFactors": [
+        1
+      ],
+      "width": 1024
+    }
+  ],
+  "width": 362
+}

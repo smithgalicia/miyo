@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://smithgalicia.github.io/miyo/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "miyo",
+  "sequences": [
+    {
+      "@id": "https://smithgalicia.github.io/miyo/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://smithgalicia.github.io/miyo/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "colophon",
+          "width": 362,
+          "height": 1720,
+          "images": [
+            {
+              "@id": "https://smithgalicia.github.io/miyo/annotation/p1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://smithgalicia.github.io/miyo/canvas/p1",
+              "resource": {
+                "@id": "https://smithgalicia.github.io/miyo/colophon/full/181,/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 181,
+                "height": 860,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://smithgalicia.github.io/miyo/colophon",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://smithgalicia.github.io/miyo/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "sheet",
+          "width": 1526,
+          "height": 1783,
+          "images": [
+            {
+              "@id": "https://smithgalicia.github.io/miyo/annotation/p2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://smithgalicia.github.io/miyo/canvas/p2",
+              "resource": {
+                "@id": "https://smithgalicia.github.io/miyo/sheet/full/763,/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 763,
+                "height": 892,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://smithgalicia.github.io/miyo/sheet",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
